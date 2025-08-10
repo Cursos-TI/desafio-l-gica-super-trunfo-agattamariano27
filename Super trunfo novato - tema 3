@@ -49,7 +49,6 @@ int main(){
     scanf("%d", &pontosTuristicosNaCidade2);
     printf("\n");
 
-
     densidadePopulacional1 = populacao1 / area1;
     pibPerCapita1 = (pib1 * 1000000000) / populacao1;
 
@@ -71,6 +70,7 @@ int main(){
     printf("Número de pontos turísticos: %d\n", pontosTuristicosNaCidade1);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional1);
     printf("PIB per Capita: %.2f reais\n", pibPerCapita1);
+    printf("Super Poder: %.2f\n", superPoder1);
 
     printf("\nCarta 2:\n");
     printf("O estado: %c\n", estado2);
@@ -82,6 +82,7 @@ int main(){
     printf("O número de pontos turísticos: %d\n", pontosTuristicosNaCidade2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional2);
     printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
+    printf("Super Poder: %.2f\n", superPoder2);
 
 // Será mostrado aqui a comparação do PIB das duas cartas
     printf("\n--- Resultado final (Item): PIB---\n");
